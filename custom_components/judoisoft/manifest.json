@@ -1,0 +1,8 @@
+{
+    "domain": "isoft",
+    "name": "Judo i-Soft",
+    "documentation": "https://github.com/ToSa27/homeassistant-judoisoft",
+    "dependencies": [],
+    "codeowners": ["@ToSa27"],
+    "requirements": []
+}
