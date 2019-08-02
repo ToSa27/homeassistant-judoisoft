@@ -15,7 +15,7 @@ from custom_components.judoisoft import ISoftEntity
 def setup_platform(hass, config, add_entities, discovery_info=None):
     isoft = hass.data[DOMAIN]['api']
     add_entities([ISoftSwitch(isoft, 'Regeneration', 'get_regeneration', 'set_regeneration', 'start', 'stop')])
-    add_entities([ISoftSwitch(isoft, 'Valve', 'get_valve', 'set_valve', 'open', 'close')])
+#    add_entities([ISoftSwitch(isoft, 'Valve', 'get_valve', 'set_valve', 'open', 'close')])
 
 class ISoftSwitch(ISoftEntity, Switch):
 
